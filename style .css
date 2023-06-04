@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Noto+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Quattrocento&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    background-color: black;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding:10px;
+    padding-bottom: 50px;
+    
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.location{
+    display: flex;
+    gap: 5px;
+    
+}
+#menu{
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.body {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    
+    
+}
+.body img{
+    width: 343.5px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    width: auto;
+   
+}
+.card button{
+    width: 343.5px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+.card button:hover{
+    background-color: orangered;
+}
+
+/*Menu List CSS*/
+
+#item  img{
+    width: 50px ;
+    height: 50px ;
+}
+#menu-list{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card .image{
+    width: 300px !important;
+    height: 300px !important;    
+}
+.card button{
+    width:300px;
+}
+#confirm-order{
+    display:none;
+    width: 500px;
+    height: 50px;
+}
